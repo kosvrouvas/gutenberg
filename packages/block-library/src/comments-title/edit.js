@@ -35,7 +35,7 @@ export default function Edit( {
 	const isSiteEditor = typeof postId === 'undefined';
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 

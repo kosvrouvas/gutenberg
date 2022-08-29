@@ -40,7 +40,7 @@ export default function PostExcerptEditor( {
 	] = useEntityProp( 'postType', postType, 'excerpt', postId );
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 	/**

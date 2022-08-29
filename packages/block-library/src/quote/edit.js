@@ -86,7 +86,7 @@ export default function QuoteEdit( {
 
 	const blockProps = useBlockProps( {
 		className: classNames( className, {
-			[ `has-text-align-${ align }` ]: align,
+			[ `text-align-${ align }` ]: align,
 		} ),
 		...( ! isWebPlatform && { style } ),
 	} );

@@ -13,7 +13,7 @@ export default function save( { attributes } ) {
 	const TagName = 'h' + level;
 
 	const className = classnames( {
-		[ `has-text-align-${ textAlign }` ]: textAlign,
+		[ `text-align-${ textAlign }` ]: textAlign,
 	} );
 
 	return (

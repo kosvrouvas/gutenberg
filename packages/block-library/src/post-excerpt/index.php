@@ -40,7 +40,7 @@ function render_block_core_post_excerpt( $attributes, $content, $block ) {
 	add_filter( 'excerpt_more', $filter_excerpt_more );
 	$classes = '';
 	if ( isset( $attributes['textAlign'] ) ) {
-		$classes .= "has-text-align-{$attributes['textAlign']}";
+		$classes .= "text-align-{$attributes['textAlign']}";
 	}
 	$wrapper_attributes = get_block_wrapper_attributes( array( 'class' => $classes ) );
 

@@ -45,7 +45,7 @@ export default function save( { attributes } ) {
 						{ cells.map(
 							( { content, tag, scope, align }, cellIndex ) => {
 								const cellClasses = classnames( {
-									[ `has-text-align-${ align }` ]: align,
+									[ `text-align-${ align }` ]: align,
 								} );
 
 								return (

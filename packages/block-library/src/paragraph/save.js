@@ -12,7 +12,7 @@ export default function save( { attributes } ) {
 	const { align, content, dropCap, direction } = attributes;
 	const className = classnames( {
 		'has-drop-cap': dropCap,
-		[ `has-text-align-${ align }` ]: align,
+		[ `text-align-${ align }` ]: align,
 	} );
 
 	return (

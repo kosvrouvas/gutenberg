@@ -12,7 +12,7 @@ export default function save( { attributes } ) {
 	const { align, citation } = attributes;
 
 	const className = classNames( {
-		[ `has-text-align-${ align }` ]: align,
+		[ `text-align-${ align }` ]: align,
 	} );
 
 	return (

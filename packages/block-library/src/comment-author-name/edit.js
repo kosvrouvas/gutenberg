@@ -38,7 +38,7 @@ export default function Edit( {
 } ) {
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 	let displayName = useSelect(

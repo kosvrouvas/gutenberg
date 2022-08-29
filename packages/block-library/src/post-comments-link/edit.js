@@ -26,7 +26,7 @@ function PostCommentsLinkEdit( { context, attributes, setAttributes } ) {
 
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 

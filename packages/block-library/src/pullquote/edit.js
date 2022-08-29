@@ -33,7 +33,7 @@ function PullQuoteEdit( {
 	const { textAlign, citation, value } = attributes;
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 	const shouldShowCitation = ! RichText.isEmpty( citation ) || isSelected;

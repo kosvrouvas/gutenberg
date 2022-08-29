@@ -130,7 +130,7 @@ const deprecated = [
 				'has-text-color': textColor || customTextColor,
 				'has-background': backgroundColor || customBackgroundColor,
 				'has-drop-cap': dropCap,
-				[ `has-text-align-${ align }` ]: align,
+				[ `text-align-${ align }` ]: align,
 				[ fontSizeClass ]: fontSizeClass,
 				[ textClass ]: textClass,
 				[ backgroundClass ]: backgroundClass,

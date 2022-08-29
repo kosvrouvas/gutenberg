@@ -26,7 +26,7 @@ function render_block_core_post_navigation_link( $attributes, $content ) {
 	}
 	$classes = "post-navigation-link-$navigation_type";
 	if ( isset( $attributes['textAlign'] ) ) {
-		$classes .= " has-text-align-{$attributes['textAlign']}";
+		$classes .= " text-align-{$attributes['textAlign']}";
 	}
 	$wrapper_attributes = get_block_wrapper_attributes( array( 'class' => $classes ) );
 	// Set default values.

@@ -36,7 +36,7 @@ function HeadingEdit( {
 	const tagName = 'h' + level;
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 		style,
 	} );

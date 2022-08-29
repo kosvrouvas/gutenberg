@@ -24,7 +24,7 @@ function render_block_core_term_description( $attributes ) {
 	}
 
 	$extra_attributes   = ( isset( $attributes['textAlign'] ) )
-		? array( 'class' => 'has-text-align-' . $attributes['textAlign'] )
+		? array( 'class' => 'text-align-' . $attributes['textAlign'] )
 		: array();
 	$wrapper_attributes = get_block_wrapper_attributes( $extra_attributes );
 

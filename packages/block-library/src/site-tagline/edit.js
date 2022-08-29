@@ -38,7 +38,7 @@ export default function SiteTaglineEdit( {
 	}, [] );
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 			'wp-block-site-tagline__placeholder':
 				! canUserEdit && ! readOnlySiteTagLine,
 		} ),

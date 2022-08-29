@@ -90,7 +90,7 @@ const deprecated = [
 			const TagName = 'h' + level;
 
 			const className = classnames( {
-				[ `has-text-align-${ align }` ]: align,
+				[ `text-align-${ align }` ]: align,
 			} );
 
 			return (
@@ -123,7 +123,7 @@ const deprecated = [
 			const className = classnames( {
 				[ textClass ]: textClass,
 				'has-text-color': textColor || customTextColor,
-				[ `has-text-align-${ align }` ]: align,
+				[ `text-align-${ align }` ]: align,
 			} );
 
 			return (
@@ -159,7 +159,7 @@ const deprecated = [
 
 			const className = classnames( {
 				[ textClass ]: textClass,
-				[ `has-text-align-${ align }` ]: align,
+				[ `text-align-${ align }` ]: align,
 			} );
 
 			return (

@@ -30,7 +30,7 @@ export default function QueryTitleEdit( {
 	const TagName = `h${ level }`;
 	const blockProps = useBlockProps( {
 		className: classnames( 'wp-block-query-title__placeholder', {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 

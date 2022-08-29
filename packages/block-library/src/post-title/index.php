@@ -27,7 +27,7 @@ function render_block_core_post_title( $attributes, $content, $block ) {
 	}
 
 	$tag_name         = 'h2';
-	$align_class_name = empty( $attributes['textAlign'] ) ? '' : "has-text-align-{$attributes['textAlign']}";
+	$align_class_name = empty( $attributes['textAlign'] ) ? '' : "text-align-{$attributes['textAlign']}";
 
 	if ( isset( $attributes['level'] ) ) {
 		$tag_name = 0 === $attributes['level'] ? 'p' : 'h' . $attributes['level'];

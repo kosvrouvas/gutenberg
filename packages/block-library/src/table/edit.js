@@ -412,7 +412,7 @@ function TableEdit( {
 								key={ columnIndex }
 								className={ classnames(
 									{
-										[ `has-text-align-${ align }` ]: align,
+										[ `text-align-${ align }` ]: align,
 									},
 									'wp-block-table__cell-content'
 								) }

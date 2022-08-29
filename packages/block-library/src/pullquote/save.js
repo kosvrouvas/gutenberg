@@ -16,7 +16,7 @@ export default function save( { attributes } ) {
 		<figure
 			{ ...useBlockProps.save( {
 				className: classnames( {
-					[ `has-text-align-${ textAlign }` ]: textAlign,
+					[ `text-align-${ textAlign }` ]: textAlign,
 				} ),
 			} ) }
 		>

@@ -40,7 +40,7 @@ export default function PostTitleEdit( {
 	const [ link ] = useEntityProp( 'postType', postType, 'link', postId );
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 

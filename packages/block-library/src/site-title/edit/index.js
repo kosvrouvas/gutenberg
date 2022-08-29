@@ -43,7 +43,7 @@ export default function SiteTitleEdit( {
 	const TagName = level === 0 ? 'p' : `h${ level }`;
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 			'wp-block-site-title__placeholder':
 				! canUserEdit && ! readOnlyTitle,
 		} ),

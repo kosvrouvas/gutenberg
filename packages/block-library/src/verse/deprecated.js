@@ -70,7 +70,7 @@ const v2 = {
 		const { textAlign, content } = attributes;
 
 		const className = classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} );
 
 		return (

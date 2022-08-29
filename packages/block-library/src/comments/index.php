@@ -69,7 +69,7 @@ function render_block_core_comments( $attributes, $content, $block ) {
 		$classnames[] = 'wp-block-post-comments';
 	}
 	if ( isset( $attributes['textAlign'] ) ) {
-		$classnames[] = 'has-text-align-' . $attributes['textAlign'];
+		$classnames[] = 'text-align-' . $attributes['textAlign'];
 	}
 
 	$wrapper_attributes = get_block_wrapper_attributes(

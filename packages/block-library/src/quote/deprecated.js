@@ -75,7 +75,7 @@ const v3 = {
 		const { align, value, citation } = attributes;
 
 		const className = classnames( {
-			[ `has-text-align-${ align }` ]: align,
+			[ `text-align-${ align }` ]: align,
 		} );
 
 		return (

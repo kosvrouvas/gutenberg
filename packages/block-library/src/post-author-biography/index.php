@@ -28,7 +28,7 @@ function render_block_core_post_author_biography( $attributes, $content, $block 
 		return '';
 	}
 
-	$align_class_name   = empty( $attributes['textAlign'] ) ? '' : "has-text-align-{$attributes['textAlign']}";
+	$align_class_name   = empty( $attributes['textAlign'] ) ? '' : "text-align-{$attributes['textAlign']}";
 	$wrapper_attributes = get_block_wrapper_attributes( array( 'class' => $align_class_name ) );
 
 	return sprintf( '<div %1$s>', $wrapper_attributes ) . $author_biography . '</div>';

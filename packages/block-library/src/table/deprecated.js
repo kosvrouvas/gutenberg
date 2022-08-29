@@ -198,8 +198,7 @@ const deprecated = [
 										cellIndex
 									) => {
 										const cellClasses = classnames( {
-											[ `has-text-align-${ align }` ]:
-												align,
+											[ `text-align-${ align }` ]: align,
 										} );
 
 										return (

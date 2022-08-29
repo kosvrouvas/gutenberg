@@ -18,7 +18,7 @@ function render_block_core_comments_title( $attributes ) {
 		return;
 	}
 
-	$align_class_name    = empty( $attributes['textAlign'] ) ? '' : "has-text-align-{$attributes['textAlign']}";
+	$align_class_name    = empty( $attributes['textAlign'] ) ? '' : "text-align-{$attributes['textAlign']}";
 	$show_post_title     = ! empty( $attributes['showPostTitle'] ) && $attributes['showPostTitle'];
 	$show_comments_count = ! empty( $attributes['showCommentsCount'] ) && $attributes['showCommentsCount'];
 	$wrapper_attributes  = get_block_wrapper_attributes( array( 'class' => $align_class_name ) );

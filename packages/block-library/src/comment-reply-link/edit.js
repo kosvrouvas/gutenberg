@@ -26,7 +26,7 @@ import {
 function Edit( { setAttributes, attributes: { textAlign } } ) {
 	const blockProps = useBlockProps( {
 		className: classnames( {
-			[ `has-text-align-${ textAlign }` ]: textAlign,
+			[ `text-align-${ textAlign }` ]: textAlign,
 		} ),
 	} );
 

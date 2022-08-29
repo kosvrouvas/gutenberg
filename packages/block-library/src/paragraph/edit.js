@@ -59,7 +59,7 @@ function ParagraphBlock( {
 		ref: useOnEnter( { clientId, content } ),
 		className: classnames( {
 			'has-drop-cap': dropCap,
-			[ `has-text-align-${ align }` ]: align,
+			[ `text-align-${ align }` ]: align,
 		} ),
 		style: { direction },
 	} );

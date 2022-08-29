@@ -102,7 +102,7 @@ const v5 = {
 			<figure
 				{ ...useBlockProps.save( {
 					className: classnames( {
-						[ `has-text-align-${ textAlign }` ]: textAlign,
+						[ `text-align-${ textAlign }` ]: textAlign,
 					} ),
 				} ) }
 			>

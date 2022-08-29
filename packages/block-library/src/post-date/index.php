@@ -19,7 +19,7 @@ function render_block_core_post_date( $attributes, $content, $block ) {
 	}
 
 	$post_ID            = $block->context['postId'];
-	$align_class_name   = empty( $attributes['textAlign'] ) ? '' : "has-text-align-{$attributes['textAlign']}";
+	$align_class_name   = empty( $attributes['textAlign'] ) ? '' : "text-align-{$attributes['textAlign']}";
 	$wrapper_attributes = get_block_wrapper_attributes( array( 'class' => $align_class_name ) );
 
 	if ( isset( $attributes['displayType'] ) && 'modified' === $attributes['displayType'] ) {

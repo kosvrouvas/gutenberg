@@ -29,7 +29,7 @@ function render_block_core_post_terms( $attributes, $content, $block ) {
 
 	$classes = 'taxonomy-' . $attributes['term'];
 	if ( isset( $attributes['textAlign'] ) ) {
-		$classes .= ' has-text-align-' . $attributes['textAlign'];
+		$classes .= $classes .= ' text-align-' . $attributes['textAlign'];
 	}
 
 	$separator = empty( $attributes['separator'] ) ? ' ' : $attributes['separator'];

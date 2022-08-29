@@ -22,7 +22,7 @@ function render_block_core_post_comments_link( $attributes, $content, $block ) {
 		return '';
 	}
 
-	$align_class_name   = empty( $attributes['textAlign'] ) ? '' : "has-text-align-{$attributes['textAlign']}";
+	$align_class_name   = empty( $attributes['textAlign'] ) ? '' : "text-align-{$attributes['textAlign']}";
 	$wrapper_attributes = get_block_wrapper_attributes( array( 'class' => $align_class_name ) );
 	$comments_number    = (int) get_comments_number( $block->context['postId'] );
 	$comments_link      = get_comments_link( $block->context['postId'] );
